@@ -19,7 +19,7 @@ public class Bai1Snt {
         int count = 0;
         for (int i = 0;i < N ; i ++){
             int num = scanner.nextInt();
-            if(isPrime(N)){
+            if(isPrime(num)){
                 count++;
             }
         }
